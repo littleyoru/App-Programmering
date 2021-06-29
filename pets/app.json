@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Pets",
+    "slug": "pets",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "icon": "./assets/Black_Paw.png",
+    "splash": {
+      "image": "./assets/Black_Paw.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses the GPS to find your current location.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app uses the GPS to find your current location and to find the closest animal shelters.",
+        "NSLocationAlwaysUsageDescription": "This app uses the GPS to find your current location."
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_FINE_LOCATION"
+      ]
+    }
+  }
+}
